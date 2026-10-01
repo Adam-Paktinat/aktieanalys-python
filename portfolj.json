@@ -1,0 +1,20 @@
+[
+  {
+    "ticker": "VOLV-B.ST",
+    "pris": 323.3,
+    "antal": 10,
+    "varde": 3233.0
+  },
+  {
+    "ticker": "ERIC-B.ST",
+    "pris": 92.42,
+    "antal": 25,
+    "varde": 2310.5
+  },
+  {
+    "ticker": "HM-B.ST",
+    "pris": 159.8,
+    "antal": 5,
+    "varde": 799.0
+  }
+]
