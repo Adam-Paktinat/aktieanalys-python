@@ -21,10 +21,21 @@ Tekniker som används:
 Programmet hämtar realtidspriser för tre svenska aktier (VOLV-B.ST, ERIC-B.ST, HM-B.ST), beräknar portföljens totala värde samt värdeförändring och direktavkastning per innehav, och sparar resultatet i portfolj.json. Exempel på utskrift:
 
 ```
-VOLV-B.ST: 10 st à 323.3 kr = 3233.0 kr
-Förändring sedan köp: 29.3% (Uppgång, Hög risk)
-Totalt portföljvärde: 6342.5 kr
+VOLV-B.ST: 10 st à 318.4 kr = 3184.00 kr
+Förändring sedan köp: 27.4% (Uppgång, Hög risk)
+Direktavkastning: 2.04%
+
+ERIC-B.ST: 25 st à 91.56 kr = 2289.00 kr
+Förändring sedan köp: 30.8% (Uppgång, Hög risk)
+
+HM-B.ST: 5 st à 158.35 kr = 791.75 kr
+Förändring sedan köp: 5.6% (Uppgång, Låg risk)
+Direktavkastning: 6.16%
+
+Totalt portföljvärde: 6264.75 kr
 ```
+
+Kurserna hämtas live från Yahoo Finance, så siffrorna ändras varje gång koden körs.
 
 ## Analys
 Resultatet visar att samma grundmönster som används i AI-utveckling, det vill säga att hämta data från en extern källa via API, strukturera den i objekt och analysera den programmatiskt, direkt går att applicera på finansbranschen. Automatiserad datainsamling och analys är grunden för många verktyg inom algoritmisk handel och riskhantering. Felhanteringen i projektet visar också varför robust kod är viktig när man är beroende av externa datakällor som kan vara otillgängliga eller returnera oväntad data.
