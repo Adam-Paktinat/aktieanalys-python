@@ -21,18 +21,18 @@ Tekniker som används:
 Programmet hämtar realtidspriser för tre svenska aktier (VOLV-B.ST, ERIC-B.ST, HM-B.ST), beräknar portföljens totala värde samt värdeförändring och direktavkastning per innehav, och sparar resultatet i portfolj.json. Exempel på utskrift:
 
 ```
-VOLV-B.ST: 10 st à 318.4 kr = 3184.00 kr
-Förändring sedan köp: 27.4% (Uppgång, Hög risk)
-Direktavkastning: 2.04%
+VOLV-B.ST: 10 st à 314.8 kr = 3148.00 kr
+Förändring sedan köp: 25.9% (Uppgång, Hög risk)
+Direktavkastning: 2.06%
 
-ERIC-B.ST: 25 st à 91.56 kr = 2289.00 kr
-Förändring sedan köp: 30.8% (Uppgång, Hög risk)
+ERIC-B.ST: 25 st à 93.18 kr = 2329.50 kr
+Förändring sedan köp: 33.1% (Uppgång, Hög risk)
 
-HM-B.ST: 5 st à 158.35 kr = 791.75 kr
-Förändring sedan köp: 5.6% (Uppgång, Låg risk)
-Direktavkastning: 6.16%
+HM-B.ST: 5 st à 159.25 kr = 796.25 kr
+Förändring sedan köp: 6.2% (Uppgång, Låg risk)
+Direktavkastning: 6.12%
 
-Totalt portföljvärde: 6264.75 kr
+Totalt portföljvärde: 6273.75 kr
 ```
 
 Kurserna hämtas live från Yahoo Finance, så siffrorna ändras varje gång koden körs.

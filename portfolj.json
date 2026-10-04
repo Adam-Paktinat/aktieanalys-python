@@ -1,20 +1,20 @@
 [
   {
     "ticker": "VOLV-B.ST",
-    "pris": 318.4,
+    "pris": 314.8,
     "antal": 10,
-    "varde": 3184.0
+    "varde": 3148.0
   },
   {
     "ticker": "ERIC-B.ST",
-    "pris": 91.56,
+    "pris": 93.18,
     "antal": 25,
-    "varde": 2289.0
+    "varde": 2329.5
   },
   {
     "ticker": "HM-B.ST",
-    "pris": 158.35,
+    "pris": 159.25,
     "antal": 5,
-    "varde": 791.75
+    "varde": 796.25
   }
 ]
